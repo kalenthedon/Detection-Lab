@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T20:04:51.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RTxDLEdUWBOM2QVMNdCs" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T20:08:59.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="CC0lhJr5GsgWeutrCL_J" version="24.4.9" type="github">
   <diagram name="Page-1" id="O6B_Zb0vm14IqtCXPeRX">
     <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XZ4pZrW2lOcdoJRMUi_P-1" value="Windows 10 Client&lt;div&gt;Wazuh Agent&amp;nbsp;&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
-          <mxGeometry x="360" y="550" width="100" height="70" as="geometry" />
+          <mxGeometry x="365.75" y="550" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XZ4pZrW2lOcdoJRMUi_P-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="XZ4pZrW2lOcdoJRMUi_P-2" target="XZ4pZrW2lOcdoJRMUi_P-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XZ4pZrW2lOcdoJRMUi_P-2" value="Router" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.router" vertex="1" parent="1">
           <mxGeometry x="390" y="410" width="50" height="39" as="geometry" />
@@ -24,6 +27,17 @@
         </mxCell>
         <mxCell id="XZ4pZrW2lOcdoJRMUi_P-6" value="&lt;div&gt;Shuffle&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_3;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="375.25" y="110" width="79.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XZ4pZrW2lOcdoJRMUi_P-8" value="SOC Analyst&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+          <mxGeometry x="640" y="390" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XZ4pZrW2lOcdoJRMUi_P-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.52;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;shape=link;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="XZ4pZrW2lOcdoJRMUi_P-1" target="XZ4pZrW2lOcdoJRMUi_P-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XZ4pZrW2lOcdoJRMUi_P-10" value="Send Events&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XZ4pZrW2lOcdoJRMUi_P-9">
+          <mxGeometry x="-0.249" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
